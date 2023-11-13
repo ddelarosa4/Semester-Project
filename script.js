@@ -1,3 +1,6 @@
+
+
+  // Navigation Bar drop down
 function toggleDropdown(show) {
     var box = document.getElementById("services-box");
     if (show) {
