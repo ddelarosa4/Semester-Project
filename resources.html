@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> </title>
-        
+        <title> Resources</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
         <header>
-            <h1> Website</h1>
             <nav>
                 <ul>
-                    <!-- Make a drop down that has subjects when completing code-->
-                    <li><a href=""></a> Subjects</li>
-                    <li><a href="resources.html">General Resources</a> </li>
-                    <!-- Search bar Make sure to edit when completing code -->
-                    <li><a href=""></a> </li>
+                    <li class="dropdown" onmouseover="toggleDropdown(true)" onmouseout="toggleDropdown(false)">
+                        <a href="#">Subjects</a>
+                        <div class="dropdown-box" id="services-box">
+                            <!-- Content for the dropdown box -->
+                            <a href="Subjetcs/math.html">Math</a>
+                            <a href="Subjetcs/science.html">Science</a>
+                            <a href="Subjetcs/computerScience.html">Computer Science</a>
+                        </div>
+                    </li>
+                    <li><a href="resources.html">General Resources</a></li>
                 </ul>
             </nav>
+            <script src="script.js"></script>
         </header>
         <main>
             <h1> General </h1>
