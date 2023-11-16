@@ -9,7 +9,7 @@ document.write(`
             <a href="#">Subjects</a>
             <div class="dropdown-box" id="services-box">
                 <!-- Content for the dropdown box -->
-                <a href="math.html">Math</a>
+                <a href="Math.html">Math</a>
                 <a href="science.html">Science</a>
                 <a href="computerScience.html">Computer Science</a>
                 <a href="history.html">History </a>

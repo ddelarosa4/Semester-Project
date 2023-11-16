@@ -10,7 +10,7 @@ document.write(`
             <div class="dropdown-box" id="services-box">
                 <!-- Content for the dropdown box -->
                 
-                    <a href="Subjetcs/math.html">Math</a>
+                    <a href="Subjetcs/Math.html">Math</a>
                     <a href="Subjetcs/science.html">Science</a>
                     <a href="Subjetcs/computerScience.html">Computer Science</a>
                     <a href="Subjetcs/history.html">History </a>
