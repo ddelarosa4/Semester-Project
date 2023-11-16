@@ -1,7 +1,8 @@
 nav {
     width: 100%;
     font-size: 20px;
-    color: #333;
+    border-bottom: solid .05px #22668d5b;
+    background-color: #FFCC70;
 }
 nav ul {
     list-style: none;
@@ -27,20 +28,27 @@ nav ul li a {
    transition: text-decoration 0.5;
     padding: 10px;
     display: block;
-    color: #333;
+    color: #22668d;
     
 }
 nav ul li a:hover{
     text-decoration: underline;
 }
 
+footer {
+    font-size: 20px;
+    background-color: #FFCC70;
+    text-align: center;
+    padding: 10px;
+    
+}
 
 
 .dropdown-box {
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #fffadd;
     width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.192);
+    box-shadow: 0px 8px 16px 0px #22668d48;
     z-index: 1;
     padding: 10px;
 }
@@ -56,4 +64,6 @@ nav ul li a:hover{
 :root{
     font-family: Helvetica, Arial,  sans-serif;
     font-size: 16px;
+    background-color: #fffadd;
+    color: #22668d;
 }
