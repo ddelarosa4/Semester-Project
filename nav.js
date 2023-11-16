@@ -12,9 +12,9 @@ document.write(`
                 
                     <a href="Subjetcs/math.html">Math</a>
                     <a href="Subjetcs/science.html">Science</a>
-                   <a href="Subjetcs/computerScience.html">Computer Science</a>
-                   <a href="Subjetcs/history.html">History </a>
-                <a href="Subjetcs/english.html">English </a>
+                    <a href="Subjetcs/computerScience.html">Computer Science</a>
+                    <a href="Subjetcs/history.html">History </a>
+                    <a href="Subjetcs/english.html">English </a>
             </div>
         </li>
         <li><a href="resources.html">General Resources</a></li>
