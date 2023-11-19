@@ -71,7 +71,7 @@ footer {
 .type {
     display: flex;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 16px;
     padding: 20px 0px 0px 30px;
 
 }
@@ -81,14 +81,16 @@ footer {
 body {
     height: 100%;
 }
-.dropdown-box a {
-    padding: 5px;
+a {
+    text-decoration: none;
+    color: #22668d;
     transition: text-decoration 0.5s;
  }
- .dropdown-box a:hover{
+a:hover{
      text-decoration: underline;
  }
-.subject {
-    font-size: 25px;
+.Subject {
+    font-size: 20px;
     font-weight: bold;
+    list-style: none;
 }
