@@ -67,3 +67,28 @@ footer {
     background-color: #fffadd;
     color: #22668d;
 }
+
+.type {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding: 20px 0px 0px 30px;
+
+}
+.type li{
+    margin: 20px;
+}
+body {
+    height: 100%;
+}
+.dropdown-box a {
+    padding: 5px;
+    transition: text-decoration 0.5s;
+ }
+ .dropdown-box a:hover{
+     text-decoration: underline;
+ }
+.subject {
+    font-size: 25px;
+    font-weight: bold;
+}

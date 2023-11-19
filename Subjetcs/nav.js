@@ -5,6 +5,7 @@ document.write(`
 </head>
 <nav>
     <ul>
+        <li> <a href="../index.html">Home</a><li>
         <li class="dropdown" onmouseover="toggleDropdown(true)" onmouseout="toggleDropdown(false)">
             <a href="#">Subjects</a>
             <div class="dropdown-box" id="services-box">
