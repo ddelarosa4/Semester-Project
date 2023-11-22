@@ -15,9 +15,14 @@
             <P>Need help on your homework but don't know where to start? We're here to help! Answer a few questions in our questionnaire and get a list of useful resources to use.</P>
             <!-- Nake sure to put questionnair when ready to comolete code-->
             <button type="button">Answer a few questions so we can help</button>
-            <div id="quiz"></div>
-                <button id="submit">Submit Quiz</button>
-            <div id="results"></div>
+            <div class="panel">
+                <h1>Quiz Application Using JavaScript</h1>
+                <div class="question" id="ques"></div>
+                <div class="options" id="opt"></div>
+                <button onclick="checkAns()" id="btn">SUBMIT</button>
+                <div id="score"></div>
+                <script src="script.js"></script>
+            </div>
 
         </main>
         <footer>
