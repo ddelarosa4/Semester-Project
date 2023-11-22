@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Subject Help Questionnaire</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container special-formatting">
+  <form id="questionnaire-form">
+    <div class="form-group" id="question1">
+      <label>What subject are you looking for?</label><br>
+      <select class="form-control" id="connection" onchange="showMoreOptions()">
+        <option value="">Select</option>
+        <option value="math">Math</option>
+        <option value="english">English</option>
+        <option value="science">Science</option>
+        <option value="compsci">Computer Science</option>
+      </select>
+    </div>
+
+    <!--QUESTION 2-->
+    <div class="form-group group-waiting" id="question2">
+      <label>Are you looking for general resources?</label>
+      <select class="form-control" id="qMath" onchange="phoneControlSelect()">
+        <option value="">Select</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+    <div id="waiting-result-display1" class="result-display1"><ul>
+      <li><a href="https://www.youtube.com/@TheOrganicChemistryTutor" target="_blank">TheOrganicChemistryTutor</a></li>
+      <li><a href="https://www.symbolab.com/" target="_blank">Symbolab</a></li>
+      <li><a href="https://www.mathway.com" target="_blank">Mathway</a></li>
+  </ul> </div>
+    <div id="waiting-result-display2"><ul><li>College Algebra
+      <ul>
+          <li><a href="https://www.khanacademy.org/math/college-algebra" target="_blank">Khan Academy - College Algebra</a></li>
+      </ul>
+  </li>
+  <li>Calculus 
+      <ul>
+          <li><a href="https://www.khanacademy.org/math/integral-calculus" target="_blank">Khan Academy - Integral Calculus</a></li>
+          <li><a href="https://www.khanacademy.org/math/differential-calculus" target="_blank">Khan Academy - Differential Calculus</a></li>
+      </ul>
+  </li>
+  <li>Discrete Mathmatics 
+      <ul>
+          <li><a href="https://www.compscilib.com/search/discrete-math?onboarding=false" target="_blank">compscilib - Discrete Mathmatics</a></li>
+          <li><a href="https://www.codecademy.com/learn/discrete-math" target="_blank">codecademy - Discrete Math</a></li>
+      </ul>
+  </li></ul></div>
+
+    <!--QUESTION 3-->
+    <div class="form-group group-waiting" id="question3">
+      <label>Are you looking for general resources?</label>
+      <select class="form-control" id="qEnglish" onchange="phoneControlSelect()">
+        <option value="">Select</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+    <div id="waiting-result-display3"><ul>
+      <li><a href="https://www.sparknotes.com/" target="_blank">SparkNotes</a></li>
+      <li><a href="https://www.litcharts.com/">LitCharts</a></li>
+  </ul> </div>
+    <div id="waiting-result-display4"><ul><li>Research
+      <ul>
+          <li><a href="https://www.jstor.org/" target="_blank">JSTOR</a></li>
+      </ul>
+  </li>
+  <li>Citing Resources
+      <ul>
+          <li><a href="https://www.bibme.org/" target="_blank">BibMe</a></li>
+          <li><a href="https://www.scribbr.com/citation/generator/" target="_blank">Scribbr</a></li>
+      </ul>
+  </li>
+  <li>Grammar
+      <ul>
+          <li><a href="https://www.grammar-monster.com/" target="_blank">Grammar Monster</a></li>
+          <li><a href="https://owl.purdue.edu/owl/general_writing/grammar/index.html" target="_blank">Purdue Owl Grammar Introduction</a></li>
+      </ul>
+  </li></ul></div>
+
+     <!--QUESTION 4-->
+    <div class="form-group group-waiting" id="question4">
+      <label>Are you looking for general resources?</label>
+      <select class="form-control" id="qScience" onchange="phoneControlSelect()">
+        <option value="">Select</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+    <div id="waiting-result-display5"><ul>
+      <li><a href="https://www.gale.com/general-science" target="_blank">Gale</a></li>
+      <li><a href="https://www.nsta.org/topics/general-science/all" target="_blank">National Science Teaching Association</a></li>
+  </ul></div>
+    <div id="waiting-result-display6"><ul><li>Biology
+      <ul>
+          <li><a href="https://www.ibiology.org/" target="_blank">I Biology</a></li>
+          <li><a href="https://www.khanacademy.org/science/biology" target="_blank">Khan Academy - Biology</a></li>
+      </ul>
+  </li>
+  <li>Chemistry 
+      <ul>
+          <li><a href="https://www.khanacademy.org/science/chemistry" target="_blank">Khan Academy - Chemistry</a></li>
+          <li><a href="https://chemcollective.org/" target="_blank">Chem Collective - Chem Labs</a></li>
+      </ul>
+  </li>
+  <li>Physics
+      <ul>
+          <li><a href="https://www.khanacademy.org/science/physics" target="_blank">Khan Academy - Physics</a></li>
+          <li><a href="https://www.physicsclassroom.com/" target="_blank">Physics Classroom</a></li>
+      </ul>
+  </li></ul>></div>
+    
+     <!--QUESTION 5-->
+    <div class="form-group group-waiting" id="question5">
+      <label>Are you looking for general resources?</label>
+      <select class="form-control" id="qCompsci" onchange="phoneControlSelect()">
+        <option value="">Select</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+    <div id="waiting-result-display7"><ul>
+      <li><a href="https://github.com/" target="_blank">Github</a></li>
+      <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></li>
+      <li><a href="https://www.codecademy.com/resources/blog/coding-projects-for-beginners/" target="_blank">Code Cademy - Projects</a></li>
+      <li><a href="https://www.geeksforgeeks.org/" target="_blank">GeeksforGeeks</a></li>
+  </ul></div>
+    <div id="waiting-result-display8"><ul><li>C++
+      <ul>
+          <li><a href="https://www.codecademy.com/learn/learn-c-plus-plus?utm_source=ccblog&utm_medium=ccblog&utm_campaign=ccblog&utm_content=cw_coding_projects_beginners_blog" target="_blank">Code Cademy - C++</a></li>
+          <li><a href="https://www.w3schools.com/cpp/default.asp" target="_blank">W3schools - C++</a></li>
+      </ul>
+  </li>
+  <li>Java 
+      <ul>
+          <li><a href="https://www.w3schools.com/java/default.asp" target="_blank">W3schools - Java</a></li>
+          <li><a href="https://www.codecademy.com/learn/learn-java?utm_source=ccblog&utm_medium=ccblog&utm_campaign=ccblog&utm_content=cw_coding_projects_beginners_blog" target="_blank">Code Cademy - Java</a></li>
+      </ul>
+  </li>
+  <li>Web Development
+      <ul>
+          <li><a href="https://www.khanacademy.org/computing/computer-programming" target="_blank">Khan Academy - JavaScript and the Web</a></li>
+          <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">W3schools - HTML</a></li>
+          <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">W3schools - CSS</a></li>
+          <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">W3schools - JavaScript</a></li>
+          
+          <li><a href="https://www.codecademy.com/learn/learn-html?utm_source=ccblog&utm_medium=ccblog&utm_campaign=ccblog&utm_content=cw_coding_projects_beginners_blog" target="_blank">Code Cademy - HTML</a></li>
+          <li><a href="https://www.codecademy.com/learn/learn-css?utm_source=ccblog&utm_medium=ccblog&utm_campaign=ccblog&utm_content=cw_coding_projects_beginners_blog" target="_blank">Code Cademy - CSS</a></li>
+          <li><a href="https://www.codecademy.com/learn/introduction-to-javascript?utm_source=ccblog&utm_medium=ccblog&utm_campaign=ccblog&utm_content=cw_coding_projects_beginners_blog" target="_blank">Code Cademy - JavaScript</a></li>
+      </ul>
+  </li></ul></div>
+
+  </form>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
