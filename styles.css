@@ -171,3 +171,111 @@ a:hover {
 .arrow.up {
     transform: rotate(180deg);
 }
+#question1 {
+  text-align:center;
+}
+#question2 {
+  text-align:center;
+}
+#question3 {
+  text-align:center;
+}
+#question4 {
+  text-align:center;
+}
+.icon-container{
+  display: grid;
+  grid-template-rows:1fr;
+  grid-template-columns:1fr;
+  grid-row-gap:5px;
+  justify-items:center;
+  margin-bottom:2%;
+  
+  
+}
+
+.icon-container img {
+  background-color:whitesmoke;
+  margin:0;
+}
+.icon-container > img.bc-up-cam {
+  min-width:400px;
+}
+
+
+
+
+/*******OVERALL MAIN CONTAINER FORMATTING******/
+.special-formatting {
+  margin-top: 1%;
+  font-weight: 700;
+  font-size:2em;
+  color: black;
+background: rgb(243,244,244);
+background: -moz-linear-gradient(180deg, rgba(243,244,244,1) 0%, rgba(208,208,208,1) 94%);
+background: -webkit-linear-gradient(180deg, rgba(243,244,244,1) 0%, rgba(208,208,208,1) 94%);
+background: linear-gradient(180deg, rgba(243,244,244,1) 0%, rgba(208,208,208,1) 94%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f3f4f4",endColorstr="#d0d0d0",GradientType=1);
+  padding: 5%;
+  border-radius: 7px;
+}
+/*******FORMATS PARAGRAPH TAG******/
+p {
+  font-size: 20px;
+}
+
+/*******HOLDS BACKUP CAMERA QUESTIONS HIDDEN PENDING SELECTION******/
+.group-waiting {
+  display: none;
+}
+/*******HOLDS ANDROID AUTO/APPLE CARPLAY RESULTS HIDDEN******/
+.waiting {
+  display: none;
+}
+/*****FORMATS BULLETED LIST INSIDE OF RESULTS CIRCLES****/
+.bullet-offset li {
+  margin-left: 20%;
+  text-align: left;
+}
+#waiting-result-display1 {
+  display: none;
+}
+#waiting-result-display2 {
+  display: none;
+}
+#waiting-result-display3 {
+  display: none;
+}
+#waiting-result-display4 {
+  display: none;
+}
+#waiting-result-display5 {
+  display: none;
+}
+#waiting-result-display6 {
+  display: none;
+}
+#waiting-result-display7 {
+  display: none;
+}#waiting-result-display8 {
+  display: none;
+}
+/*******ARESULT FORMATTING 1******/
+.waiting-result-display1 {
+  text-align:center;
+  background-color:white;
+}
+.result-display1 p {
+  font-size:1.5em;
+  margin-bottom:0;
+}
+.result-display1 img{
+  margin-top:0;
+  text-align:center;
+  min-width:50vw;
+}
+/******* RESULT FORMATTING 2******/
+.result-display2 {
+background-color:white;
+  }
+
