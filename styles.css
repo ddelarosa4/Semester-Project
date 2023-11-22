@@ -224,11 +224,11 @@ p {
   font-size: 20px;
 }
 
-/*******HOLDS BACKUP CAMERA QUESTIONS HIDDEN PENDING SELECTION******/
+/*******HOLDS QUESTIONS HIDDEN PENDING SELECTION******/
 .group-waiting {
   display: none;
 }
-/*******HOLDS ANDROID AUTO/APPLE CARPLAY RESULTS HIDDEN******/
+/*******HOLDS RESULTS HIDDEN******/
 .waiting {
   display: none;
 }
